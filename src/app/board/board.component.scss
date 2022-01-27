@@ -8,3 +8,21 @@ app-square{
     height: 200px;
 
 }
+
+.cont,.cont1,.cont2,.cont3{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 800px) {
+    main {
+        display: grid;
+        grid-template-columns: 80px 80px 80px;
+        grid-gap: 0px;
+    }
+    app-square{
+        border: 1px gray solid;
+        height: 80px;
+        width: 80px;
+    
+    }
+  }
