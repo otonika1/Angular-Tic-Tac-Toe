@@ -17,9 +17,9 @@ import { Component, Input, OnInit } from '@angular/core';
       }
     }
   </style>
-  <button style="font-size:80px"  nbButton *ngIf="!value">{{ value }}</button>
-     <button style="font-size:80px" nbButton hero status="success" *ngIf="value== 'X' ">{{ value }}</button>
-   <button style="font-size:80px" nbButton hero status="success" *ngIf="value== 'O' ">{{ value }}</button>
+  <button style="font-size:80px;"  nbButton *ngIf="!value">{{ value }}</button>
+     <button style="font-size:80px;" nbButton hero status="success" *ngIf="value== 'X' ">{{ value }}</button>
+   <button style="font-size:80px;" nbButton hero status="success" *ngIf="value== 'O' ">{{ value }}</button>
   `,
   styles:[]
 })
