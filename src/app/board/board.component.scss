@@ -1,3 +1,4 @@
+
 main {
     display: grid;
     grid-template-columns: 200px 200px 200px;
@@ -8,7 +9,9 @@ app-square{
     height: 200px;
 
 }
-
+.btn:hover{
+    color: black;
+}
 .cont,.cont1,.cont2,.cont3{
     display: flex;
     justify-content: center;
